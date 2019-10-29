@@ -11,13 +11,15 @@
 https://api.appstoreconnect.apple.com/v1/betaTesters?filter[app]=123456789&filter[name]=BetaGroup
 
 GROUPINFO:
+
+<code>
   "data": [
         {
             "type": "betaGroups",
             "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         }
     ]
-
+</code>
 
   2. 根据群组ID获取测试人员名单
 https://api.appstoreconnect.apple.com/v1/betaGroups/#{specify_group_id}/relationships/betaTesters
